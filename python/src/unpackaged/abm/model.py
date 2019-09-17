@@ -72,6 +72,7 @@ print("time = " + str(end - start))
 
 # Calculating the maximum and minimum distances between agents
 max_distance = max(distances)
+min_distance = min(distances)
 # =============================================================================
 # # randomly moving agent 0
 # y0 = agents[0][0]

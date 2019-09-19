@@ -53,11 +53,13 @@ class Agent():
 # # Extension from practical 6 (I/O)  
 # # Displaing information about agents' location and stores      
 # =============================================================================
-    def __str__(self):
-        print("x location: ", self.get_x())
-        print("y location: ", self.get_y())
-        print("store: ", self.store)
-
+# =============================================================================
+#     def __str__(self):
+#         print("x location: ", self.get_x())
+#         print("y location: ", self.get_y())
+#         print("store: ", self.store)
+# 
+# =============================================================================
 
 # =============================================================================
 #  Calculating the distance to each of the other agent and if they tend to be
@@ -66,7 +68,7 @@ class Agent():
 # =============================================================================
              
     def share_with_neighbours(self, neighbourhood):
-        print("Neighbour: ", neighbourhood)
+        #print("Neighbour: ", neighbourhood)
         
         for agent in self.agents:
             distance = self.distance_between(agent)
@@ -74,7 +76,7 @@ class Agent():
                 average = (self.store + agent.store)/2
                 self.store = average
                 agent.store = average
-                print("Sharing " + str(distance) + " " + str(average))
+                #print("Sharing " + str(distance) + " " + str(average))
                 
             
                 

@@ -10,13 +10,25 @@ import random
 
 class Agent():
     # Environment is a list
-    def __init__(self, environment, agents):
-        self._y = random.randint(0,300)
-        self._x = random.randint(0,300)
+    def __init__(self, environment, agents, y = None, x = None):
+# =============================================================================
+#         self._y = random.randint(0,300)
+#         self._x = random.randint(0,300)
+# =============================================================================
         self.environment = environment
         self.agents = agents
         self.store = 0
         
+        if (x == None):
+            self._x = random.randint(0,300)
+        else:
+            self._x = x
+            
+        if (y == None):
+            self._y = random.randint(0,300)
+        else:
+            self._y = y
+            
     # Setters: Making y and x are private
     def set_y(self, y):
         self._y = y

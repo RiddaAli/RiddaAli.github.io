@@ -1,6 +1,5 @@
 ---
-title: Test
+title: Ridda's Website
 ---
 
-
-Hello World
+I am Ridda. 

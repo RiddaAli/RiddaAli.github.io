@@ -1,4 +1,4 @@
-[Home](riddaali.github.io) |  [Research](riddaali.github.io/research)
+[Home](https://riddaali.github.io) |  [Research](https://riddaali.github.io/research)
 
 My reserach interests are:  
 
